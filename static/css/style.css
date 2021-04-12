@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML */
+body {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu Mono";
+  font-weight: 700;
+}
+
+p {
+  color: #000000;
+}
+
+/* General Classes */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font: 3rem;
+  line-height: 1.5;
+}
+
+/* Title */
+.colored-section {
+  background-color: #f1d4d4;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
